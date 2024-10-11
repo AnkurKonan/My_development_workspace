@@ -1,0 +1,899 @@
+Humans vs computer:
+-human -get bored, creative, detect patterns, follows
+-computer -don't bored, non-creative, computation, follow blindly
+
+
+How to think as programmer:
+-pseudo code
+-Amstrad CPC 464
+-
+
+
+Blockchain:
+-works on shared ledger of transactions
+-ledger information is stored in blocks
+-blocks are verified using "proof of work"
+-only verified blocks are added to blockchain
+-miner who verifies block gets reward
+-reward keep enough miner for safe system
+-block ---- block ---- block 
+-verifying information with a lot of computing effort
+-consensus -mechanism requiring enough people to agree which transaction are valid
+-ledger -record of all transaction in group
+-blockchain ledger of each person (who gives & takes bitcoin & how much)
+-blockchain ledger -user addresses transactions are more publicly traceable
+-transaction requested ---> block (representing transaction created) ---> block is sent to every 
+ node in network ---> nodes validate transaction & receive reward fro proof of work ---> block is  
+ added to existing blockchain & transaction is complete
+-peer-to-peer decentralised network -users verify transactions by completing complex math problem
+				   -order transaction from past 10 min
+				   -receive bitcoin in return
+				   -keep network secure
+
+
+[Google = prefers to keep ownership with code that allocate it, If other code needs access to 
+ object, prefer to use std::unique_ptr to make ownership transfer explicit]
+[jQuery, Netbeans, cocoa, Saas, CEF, cocos2d, SCSS, Redux, WebGL, Three.js, apache sparks, scrum, 
+ objective-c, agile methodologies, azure devOps, AWS, quarkXpress, AJAX, REST APIs, jQuery, spring, 
+ struts, hibernate, maven, XML, design patterns, agile methodologies, sensible, oracle cloud, GCP]
+[more powerful features --> bring complexity, more bug prone, hard to read & maintain]
+[ownership & smart pointers]
+
+
+Promoting your app:
+-unique & memorable
+-include most important keywords
+-don't infringe any trademark
+
+
+-bipolar junction transistor
+-metallisation, oxide layer, silicon water
+-photomask, photoresist, oxide layer, silicon wafer
+-
+
+
+ASCII vs UNICODE:
+-ASCII -American standard code for information interchange
+       -encodes charter for communication
+       -2 standards -7 bit ASCII 128 characters, 8 bit ASCII 256 characters
+       -support specific character & occupies less space
+-UNICODE -universal character set/ universal coding system
+	 -IT standard encodes text for computer & other communication device
+	 -UTF-8 --> 256, UTF-16 65536, UTF-32 4294967296, UTF (unicode transformation format)
+	 -support large number of character & occupies more space
+
+
+Database:
+-relational database -designed to capture & record data (OLTP)
+-live, real-time data, stored in tables (rows & columns)
+-highly detailed, flexible schema
+
+
+Data warehouse:
+-relational database -designed for analytical processing (OLAP)
+-data is refreshed from source systems stores current & historical
+-data is summarised, rigid schema 
+
+
+Data lake:
+-relational database -designed to capture raw data (structured, semi-structured, unstructured)
+-made for large amount of data
+-used for ML & AI in current state or analytics with processing
+-can organise & put into databases or data warehouses
+
+
+Github:
+-create new git 
+-git init
+-git add --all
+-git commit -m "message"
+-git remote add https://github.com/<git>.git
+-local changes
+-git status
+-git add --all
+-git add -p file.txt
+-history
+-git log
+-git log -p file.txt
+-git blame file.txt
+-branch
+-git branch -av
+-git branch new-branch
+-git checkout branch
+-undo
+-git reset --hard HEAD
+-git checkout HEAD file.txt
+-fit revert commitID
+
+
+Software vs firmware:
+-software -set of instruction that specific what computer does
+	  -application, SW, system, SW
+	  -large size, KBs & GBs
+	  -high level & low level programming language
+	  -easy to update & modify
+	  -visible & intractable for user
+	  -runs in CPUs & GPUs
+	  -constant change
+	  -long development cycles 
+-firmware -controls hardware devices
+	  -BIOS, EFI
+	  -small size, few KBs
+	  -only low-level language
+	  -hard/impossible to update & monitor
+	  -hidden & locked from user
+	  -runs on purpose-built/ tiny processor
+	  -changes extremely rarely 
+	  -short development cycles
+
+
+-packets are reassemble in order
+-utilities softwares -designed to assist users in maintain & core of their computers
+-fault tolerance & redundancy -grow & scale without interrupting service 
+			     -more routers = more reliable
+		   	     -TCP + router systems = scalable
+			     -TCP -manages sending & receiving of all your data as packets
+-internet protocol -often best route for data to travel is not most direct
+-routers act like traffic managers to keep packets moving smoothly
+-packets don't have drivers, don't choose routes
+-digital information can be sent with IP packets (music, e-book, videos)
+-data travels on internet in much less direct fashion
+-electricity (cheap & signal loss), light (really fast & no signal loss), radio (totally mobile, 	
+ short range)
+-direct dedicated connections --> impossible to keep things working
+-wireless -uses radio signal to send bits from 1 place to another
+-spammers try to game search algorithm
+-keep eye on untrustworthy web addresses 
+-website makes money when people visit there
+-ranking algorithm -title, sequence, keyword (search engine)
+-ranks page based on what it thinks people want
+-fake emergency security update (may have wrong spellings)
+-virus -organism spread through airborne or physical contact
+-smart contracts can decentralise -information storage, how data is used, computing effort needed 
+ to enforce rule
+-NFT -non-fungible token (asset tracked on blockchain, digital collectibles, artwork, items in game
+-MPEG-4 video -20-200x smaller than original uncompressed file
+-delay line memory -data in---speaker---microphone/amplifier---data out
+-autonomous program ensures transaction followed without need of legal contracts
+-writer, co-writer, performer
+
+
+Logcat -CLI tool dumps log go system messages
+
+
+[Vs code, Xcode, android studio, Jet brains, Pycharm, IJ, Arduino IDE]
+[blender, scratch, pencil 2D, krita, Autodesk, notepad++, virtual box]
+
+
+Raspberry Pi:
+-programmers can build anything with raspberry pie
+-hard drive, SD card, active cooler
+-choosing OS distro --> login through Ssh (ssh ankur@raspberry.local) 
+-npx create-next-app@latest my-app
+-cd my-app
+-npm run dev
+-raspberrypi.local:3000
+-
+
+
+Game development:
+-using stones, touch, grasses, sticks
+-barcode game -using barcode scanner as input device
+-building deck game
+-kingdom management game
+-tower defence game
+-setting design goal
+-using AI in game as opponent (don't make unbeatable AI model)
+-humans like having impact in environment (feeling of power & control) (reward = impact)
+-increasing randomness  & fantasy --> more rewarding
+-balance between challenge & players skill ---> ideal game
+-handful of simple script can also make great game (movement, restart level, born enemies, enable/ 
+ disable other scripts)
+-1 idea --> new ideas
+-battlefield, fortune wheel, VIP access (removing ads, purchase gifts, level bonus) (X days free 
+ trial), settings
+-mathematics is important in game development
+-pacman (game about fear), space invader extreme, Zelda, snake, NES, mega man
+
+
+DBMS vs RDBMS:
+-DBMS -data are stored as file
+      -relationship between 2 tables/ files are maintained programmatically
+      -no support client server architecture & no support distributed architecture
+      -no security of data
+      -xml, file systems
+-RDMBS -store tabular form
+       -relationship b/w 2 tables/ files can specify at time of table creation
+       -support client server architecture & distributed architecture
+       -multiple level of security at logging level, command level, object level
+       -mysql, Postgres, sql server, oracle
+
+
+[Automation frameworks, E-bike display update]
+
+
+Deno2:
+-
+
+
+HTTP & HTTPS:
+-communication between web server & client
+-http requests/ responses
+-loading pages form submit, Ajax calls
+-every request is completely independent similar to transaction
+-programming, local storage, cookies, sessions used to create enhanced user experience
+-SSl/TLS
+-install certificate on web host
+-GET -retrieves data from server
+-POST -submit data to server
+-PUT -update data already on server
+-DELETE -delete data from server
+-HEAD -same as get but doesn't return body
+-OPTIONS -returns supported http response
+-PATCH -update partial resources
+-General -request URL, request method, status code, remote address, referrer policy
+-Response -server, set cookie, content-type, content-length, date
+-Request -cookies, accept-xxx, content-type. content-length, authorisation, user-agent, referrer
+-1xx (request received/processing), 2xx (successfully received, understood, accepted), 3xx 
+ (redirect), 4xx (client error), 5xx (server error)
+
+
+[jQuery, Axios, superagent, fetchAPI, prototype, Node HTTP]
+
+
+Reason for less common TLD:
+-more availability, unique, SEO
+-https://news.ycombinaotr.com
+-https://www.wikipedia.org
+-https://www/php.net
+
+
+XmlHttpRequest:
+-XHR object -API in form of object
+-provided by browser JS environment
+-methods transfer data b/w client/server
+-used with other protocol than HTTP
+-work with data other than XML (JSON, plain text)
+
+
+-npm install (install dependencies)
+-npm start (run react dev server) (http://localhost:3000)
+-npm run server (run JSON server (http://localhost:5000)
+-npm run build (build for production)
+-npm test (starts test runner)
+-npm run eject 
+
+
+HTTP/2:
+-major revision of http, under hood changes, respond with data, reduce latency by enabling full 
+ request & response multiplexing
+-fast, efficient, secure
+
+
+PostCSS:
+-tool for transforming css with javascript plugins
+-automate css task, used with many popular front-end tooling software (Next.js, Vice, Web pack)
+-no external compiler needed, build in part of project structure
+-take input CSS & convert into AST (abstract syntax tree0 & parses css strings as JS object
+-API allows JS plugins to access & update properties, providing different output file
+-anyone can create postCSS plugins if good with javascript & css
+-css --> parser --> plugin1 --> plugin2 --> signifier --> new css
+
+
+Javascript:
+-high level, interpreted programming language of browser, scripting language, polymorphism
+-encapsulation, inheritance
+-Firefox -- spider-monkey, chrome -- V8, edge -- chakra
+-conforms to ECMASscript specification
+-multi-paradigm
+-typescript is JS with static typing
+-runs on client/browser as well as on server 
+-build very interactive user interfaces with react
+-used in building building fast server side & full stack application
+-used in mobile development (react native, native script, ionic)
+-used in desktop application development (electron JS)
+-DOM selection, DOM manipulation, events, basic form validation, OOP (prototypes & classes)
+
+
+Ajax:
+-asynchronous javascript & XML, set of web technologies, send & receive data asynchronously, no 	
+ interfere with current web page
+-JSON has replaced XML for most parts
+
+
+Static vs dynamic website:
+-static -html, Js, css
+        -easy to build, cheap to host, fixed content
+        -server-------client
+        -brochure site, B@B marketing sites, non-profit sites, blogs
+-dynamic -html, Js, css, mysql, php
+         -little hard to build, costly than static website to host, easily edit content
+         -server-------database server-------client
+         -e-commerce stores, membership site, learning management system
+
+
+MAC address vs IP address:
+-MAC address -48 bit hexadecimal address, works at OSI layer 2 (link layer), physical address, 
+              fixed, assigned  
+              by manufacturer, 00:F5:09:56:E8
+             -media access control, identifies physical address of computer on internet
+             -assigned in NIC card, ARP protocol can retrieve MAC address of device
+-IP address -32 bit address, works at OSI layer 3 (network layer), logical address, can change 
+             depending on network environment, 150.60.122.98
+            -IPv4 is 32 bit address & IPv6 is 128 bits address
+            -assigned by network administrator or ISP
+            -RARP protocol can retrieve IP address of device
+
+
+Hacking:
+-web interface for router (device connected with stranger) --> something wrong
+-Instagram & linked-in are great way to get information about someone
+-90% of penetration tests are recon, reconnaissance is finding out everything about target,  
+ checking websites, look for technology & location/blueprints --> probe/ scan target to compromise 
+ --> run code --> download data --> send it
+
+
+Vector vs Raster:
+-vector -scalable without quality loss, convertible to raster, (EPS, AI, SVG, PDF, PSD, CGM, CDR), 
+         multiple 
+         reference points & curves
+-raster -pixels, loses quality when scaled, non convertible to vector, (BMP, JPG, GIF, PNG, PCX, 
+         TIFF)
+
+
+Color psychology:
+-
+
+
+Colors:
+-RGB (0->255, 0->255, 0->255)
+-256 intensities per colour channel
+-red, green, blue
+-hexadecimal (40EODO)
+-binary (R:01001111, G:01001111, B:01001111)
+-black (0,0,0), white (255,255,255), green (0,255,0), red (255,0,0), blue (0,0,255)
+
+
+-output --> [CPU & memory] --> input
+-CPU calculates how to display pixel by pixel
+-keyboard converts letter --> binary
+-all computer do same thing (input --> store --> process --> output)
+-anything to do with technology requires lots of information to be processed extremely quickly
+-electricity speed = light speed
+-modern circuits can perform billions of calculations per second
+
+
+Hardware vs software:
+-hardware -physical component of computer 
+          -wears out of time, tangible
+          -keyboard, mouse, monitor, RAM, ROM, CPU
+-software -set of instructions written using various programming language help control hardware
+          -doesn't ware out of time (affect by bugs & glitches), tangible 
+          -windows, powerpoint, excel
+
+
+Input & output devices:
+-input -mouse, keyboard, joystick, trackpad, light pen, scanner, bar code scanner, QR code scanner, 
+        mic, stylus
+-output -printer, monitor, speaker, headphone, GPS, braille reader, projector, plotter, sound card, 
+         video card
+-both -CD/DVD, pen drives, touch screen, digital camera, modem
+
+
+Super computing vs high performance computing:
+-SC -processing of extremely complex/ data intensive problem by using SC
+    -solve by concentrating combined resources of multiple computers working in ||
+    -fast, highest operational rate of computer
+    -weather forecasting, aerospace engineering crash & safety, modelling, quantum physics, 
+     physical simulations, oil & gas exploration
+-high performance -recent version super computer
+                  -both administration & parallel computational technique to develop || processing 
+                   algorithm & systems
+                  -superior performance as compared to typical desktop computer
+                  -include structural analysis, computational fluid dynamics, oil exploration, 
+                   atmospheric science, defines apps
+
+
+Structured vs unstructured data:
+-structured data -information highly organised, factual & to-point
+                 -
+                 -quantitative, data warehouse, relational database, sever predetermined formats
+-unstructured data -no predefined structure 
+                   -qualitative, data lakes, non-relational database, huge array of formats
+
+
+[traffic indicates growth --> more traffic --> more resources --> optimising their host --> using 
+ scalable hosting --> maintaining databases --> constantly updates & clean databases --> cache 
+ their content --> using content delivering networks]
+[godaddy.com, domains.google, namecheap.com, get.tech, bluehost, hostinger, dreamhost, hostgator]
+
+
+Client side & server side:
+-client side -frontend, collect user input, client side scripts mostly, deals with visual & user 	
+ 	      input aspect, script may derestricted to run in sandbox
+	     -html, css, react, angular, javascript, bootstrap
+-server side -backend, processes user input, server side scripts mostly, deals with transactions & 	
+ 	      complex computations, processes are transparent to users
+	     -php, Node.js, python, mysql, mongoDB
+
+
+Motherboard:
+-expansion slots -graphics, sound, network interface, PC/express
+-ports -USB, firewire, SD card, audio
+
+
+General things:
+-penetration testing -company hiring hacker or security professional to test their security by 	
+		     breaking in website, building itself/ even international network devices to 	
+		     validate their security
+-firmware -software built into hardware, cannot be changed or upgrade
+-web1 & 2 data stored centrally on developer/ companies server
+-web3 -data distributed over multiple servers creating collective ownership & verification of data
+-computer memory -bunch of switches (transistors), turned on/off in patterns represent information
+                 -capacitor -type of hardware, hold some electricity from switches & create memory
+-our data is not worth much by itself, hackers open lines of credit, get passports & create 	
+ identities to sell criminal
+-certain vulnerabilities can happen by just having reading page open, receiving SMS message can 
+ compromise your machine
+-using more digits is less efficient & binary is simpler to implement & more resistant to errors
+-internet is built upon layers of ideas (at lowest layer 0s & 1s)
+-microchips are on logic/motherboard that has many ports (audio, networking, USB), ports connect to 
+ different chips (traces & tiny wires), interpret signals from these ports, some perform operations  
+ & some store information
+-
+
+
+Relational & non-relational database:
+-
+
+
+Connecting wires:
+-thunderbolt -high speed technology interface that outputs 1 serial signal from combination of PCI 	
+	      express & display port
+             -can daisy chain upto 6 devices
+             -version 1&2 uses mini display port & version 3 uses USB type-C
+-displayPort -royalty free
+             -max resolution of 8K at 60Hz
+             -has locking mechanism that keeps cable locked in place
+             -has multi-monitor capability
+             -allows use of multiple monitor in daisy chain configuration
+             -high performance interface
+             -can be connected to older ports by using adapters
+             -developed by VESA (video electronic standard association)
+             -used in video
+             -used to carry to Usb & audio data
+-HDMI -higher resolution & refresh rates
+      -4K video at 120Hz
+      -8K video at 60Hz
+      -10K video for commercial A/V systems & specialty usages
+      -added network communication
+      -sends & receives data at 100MB/s ethernet
+      -4K video at 30Hz
+      -high definition multimedia interface
+      -has broad range of use in electronic
+      -designed for transmitting uncompressed video & audio through single cable
+-DVI -dual link DVI has max resolution of 2560x1600
+     -single link DVI has max resolution of 1920x1200
+     -digital visual interaces
+     -succeeded VGA port
+     -designed to provide uncompressed, high quality video to LCD monitor
+     -DVI-A (used to send analog signals only)
+     -DVI-D (used to send digital signals only
+     -DIV-I (used to send both analog & digital signals)
+-VGA -video graphics array
+     -older technology 
+     -has 15 pins (divided into 3 rows)
+     -only carries analog data
+     -end adapter will typically have blue colour
+     -used in CRT monitors
+
+
+API:
+-application program interface
+-apis are everywhere
+-contract provided by 1 piece of software to another
+-structured request & response
+
+
+Vertical vs horizontal scaling:
+-vertical -+CPU, +RAM, +SSD ---> increase power of single server
+-horizontal -deploying new server
+
+
+Distributed computing -search engines have 100s/1000s of more server around world
+                      -each server spread out across multiples servers removing bottlenecks
+
+
+Rest:
+-representation state transfer
+-architecture style for designing network applications
+-relies on stateless, client-server protocol, almost always http
+-treats server objects as resources that can be created or destroyed
+-used by virtually any programming language
+
+
+Operating system vs firmware:
+-OS -interface between hardware & application running on computer systems
+    -execute user programs & control computer resources like disk, memory, keyboard, printer
+    -stored onto disk
+    -written in C++ & python 
+    -handle high level operations like providing GUI interface to end user, multitasking
+    -installed or changed by user
+-firmware -piece of code embedded in any device 
+          -permanent instructions to communicate 
+          -stored in ROM/ flash memory (non-volatile memory)
+          -written in C or assembly langue
+          -cannot be changed
+          -BIOS
+
+
+[FreeBSD, Solaris, Sun cobalt, Red-hat, Linux]
+[digitalocean, Linode, Netlify, versel]
+
+
+Python:
+-simple to write & read
+-versatile coding language
+-code runs smoothly on variety of operating platforms
+-certain speed difficulties, uses more memory, python layer for dealing with databases can be 
+ improved, limited support for mobile app
+-flash, django, web2py, dash, cubic web, AIOHTTP, cherrypy, giotto, bottle
+
+
+React Native:
+-JS library/framework for creating UIs
+-react is agnostic, react-DOM & used to render in browser
+-compile react components into native components/widgets
+-allows to use react to create native IOS & android applications (single codebase)
+-requirements -Mac -IOS/android, windows -android
+              -android studio/ SDK/ emulator (AVD)
+-components -flat-view, sectionalist, action sheet IOS, alertIOS, backhander, date picker android
+
+
+UI/UX:
+-UX -physical & digital product, psychology, strategy, mental models
+    -fully experience from user 1st contract to last
+    -information architect, user research, interactive design, wireframe & prototype 
+    -structural design solutions fro pain points that users encounter anywhere along their journey 
+     with product
+    -delight users with their effectiveness
+-UI -application -digital products only, prototyping
+    -visual design, colours, graphic design, layout, typography
+    -visual touchpoint allows users to interact with product
+    -combinations of typography, colour palette, buttons, animations, imagery
+    -product that delight users aesthetically
+
+
+Statically vs dynamic typed:
+-statically -perform tap checking at compile time
+            -static variable -global/static area
+            -FIFO, size must known at compile time
+            -assigned to stack
+            -explicitly allocates memory
+            -explicitly define your data types
+            -string, int, float
+-dynamic -type checking is done at run-time
+         -dynamic variable -stack area, for local variable in subprogram
+         -size is not known
+         -no particular order
+         -implicitly allocates memory
+         -assigned to heap
+         -assumes data type automatically
+         -less code but also more prone to errors
+
+
+DPU vs GPU vs CPU:
+-DPU -offload functions & data manipulation, very low power, very high storage efficiency, low cost
+-CPU -user application (generation compatibility), high power, low storage efficiency, high cost,  
+      multi-core, MIMD, high IPC for single threads, ideal for low to medium I/O
+-GPU -paralleled compute processing, very high power, low storage efficiency, very high cost, 
+      multi-core, SIMD, ideas for graphics, ML training
+
+
+Dedicated vs integrated GPU:
+-dedicated -gaming on 1440p or 4K resolution
+           -good for high frame rates (FPS)
+-integrated -only for 60FPS & 1080p in games 
+            -saves lot of money on build
+
+
+[Rows (records) & column (field)]
+
+
+Static & dynamic data structure:
+Static -memory allocated -static variables are allocated memory at program start rather than at 
+        runtime like dynamic variable
+       -provides easier access to element through index
+       -not flexible
+       -in array
+-dynamic -dynamic variables ...........
+         -no easier access
+         -created Y& destroyed at runtime (more flexible in managing memory)
+         -linked list data structure, size of list can changes as elements are added or removed 
+         -initialised in any value at any time, gives developer control over value
+
+
+React.js:
+-library for building user interface
+-
+
+
+Security:
+-data breach & data leak
+-remote access trojan (RAT)
+-man in middle attack
+-hashing (plain text ---> hash function ---> hash text ---> database)
+-types of hashing algorithm (MD6, tiger, CRC32, SHA-1, SHA-256, MD5, ripeMD128, Ddler32)
+-salting (123456 ---> 1abc2abc3abc4abc5abc6) (salt = abc)
+-brute force attack (attacker ---> guess list of username & password ---> repeat login attempt  
+ until successful ---> successfully credential validation)
+-dictionary attack (lots of password & their hash)
+-letters + number + special character = strong password
+
+
+Data types:
+-primitive -numeric -integer -byte, short, long, int
+                    -floating point -double, float
+           -non-numeric -character, boolean
+-non-primitive -string
+               -arrays
+               -user defined classes
+
+
+MERN vs MEAN:
+-Mean -manages files & abstraction in coding
+      -managing & upgrading code
+      -offers better productivity
+      -offers various ready to use features
+      -data flow bidirectional
+      -size of project is small
+      -not in mobile app
+      -focus on performance is medium
+      -focus on defect prevention is high
+-Mern -help to code faster
+      -facilitates smooth UI rendering
+      -offers low productivity
+      -needs additional libraries for supporting similar requests
+      -data flow unidirectional
+      -size of project is large
+      -mobile app
+      -focus on performance is high
+      -focus on defect prevention is medium
+
+
+HTTP vs HTTPS:
+-http -hypertext transfer protocol
+      -works at application layer
+      -default port number is 80 for communication
+      -no encryption is present in http websites
+-https -hypertext transfer protocol secure
+       -works at transport layer
+       -default port number is 443
+       -both encryption & decryption exist on https websites
+
+
+MERN stack:
+-html, css, javascript --> react --> node --> express --> mongoDB --> connecting & deploying 
+
+
+Node.js:
+-javascript runtime (not language or framework)
+-build on V8 javascript engine (same as google chrome)
+-written in C++
+-essentially allows us to run javascript code on server
+-javascript fundamentals (objects, arrays, conditionals)
+-MVC patterns, promises, arrow functions, JSON, HTTP (status codes, headers)
+-fast, efficient & highly scalable
+-event driven, non-blocking I/O model
+-popular in industry
+-same language on front & backend
+-works on single thread using non-blocking I/O calls
+-supports 10s of 1000s concurrent connections
+-optimises throughout & scalability in apps with many I/O operations
+-single threaded. Supports concurrency via events & callbacks
+-event emitter class is used to bind events & listeners
+
+
+[Framework is collection of software modules, tools, artefact that provide theoretical & technical  
+ essential assistance in development of application software]
+
+
+Endpoints -URI/URL where api/service can be accessed by client application 
+Authentication -some APIs require authentication to use their service (paid or free)
+Boot -booting is loading OS into computer main memory/ RAM
+
+
+Web scraping:
+-bunch of websites (unstructured data) ---> web scraping software ---> structured data in file/ 
+ database (JSON, CSV, XLSX, SQL, TXT, XML)
+-select website --> find data --> write script --> run bot ---> store data
+
+
+Some computer specs:
+-I7 9700k @ 3.60Ghz, NVIDIA geforce RTX 2700 8GB, 16GB DDR4
+-10GEN I7, 1660ti 6GB, 16GB DDR4
+-HP omen 15, RTX 3060, AMD Ryzen 7
+-I5 4GEN, GT710 
+-RTX 3090s
+-Ryzen 5600 
+-IPS 240Hz, I9, 14900HX, RTX 4080 32GB, DDR5 1TB SSD
+-Ryzen 5 9600x coller, 240 Elite GPU, RTX 4070 32GB
+-AMD Ryzen 7 8845HS, 3.8Hz, RTX 4070 8GB, GDDR6, DDR5-5600 16GB, 1TB SSD
+-Ryzen 7 7800x3D 32GB, DDR5, 600mhz B650 Aorus elite AX Ice GB 4070 super blue 1TB NVME 850W,  
+ Thermaltable PSU Lian Li GA || AIO
+-RTX 4070, I9 14900HX, 32GB
+
+
+How do API works:
+-web app in browser <----request/ response----> internet -----> API -----> web server -----> 
+ database
+
+
+High level language (humans) source code(.java)----compiler----bytes code (.class) (cross platform,  
+portable)----JVM----object code (machine code) Low level language (computer)
+
+
+Hardware ---> machine learning ---> assembly language ---> C, C++ rust
+
+
+Compiler vs interpreter:
+-compiler -converts program -----> machine code as whole
+          -create object code file
+          -converts high level program that can execution many times
+          -execution is fast
+          -displays syntax errors after compiling whole program
+          -C++, C
+-interpreter -converts program -----> machine code line by line
+             -no create object code file
+             -convert high level programs each time execution
+             -execution is slow
+             -display syntax errors on each statement of program
+             -ruby, perl, python, PHP
+-assembler -converts program assembly language -----> machine language
+           -used by assembly language
+
+
+Blender:
+-open source 3d software used to make animation, visual effects, game assets
+-shift + A (adding new items)
+-
+
+
+DBMS:
+-data -collection of raw, unorganised facts & details (text, observations, figures, symbols)
+      -doesn't carry any specific purpose & no significance by itself
+      -measured in terms of bits & bytes (context of computer storage & processing)
+      -recorded & doesn't have any meaning unless processed
+      -quantitative -numerical form (weight, volume, cost)
+      -qualitative -descriptive, not numerical, name, gender, hair colour
+      -data doesn't depend on information
+-information -processed, organised & structured data
+             -enables decision making & meaningful
+             -extracted from data, analysing & interpreting pieces of data
+             -presented by words, language, thoughts, ideas
+             -information depends on data
+-database -electronic piece/system where data is stored in way accessed, managed, updated
+          -database management system
+          -interrelated data & set go programs to access those data
+          -collection of data refers to database contains information relevant to enterprise
+          -way to store & retrieve database information both convent & efficient
+          -perform different operations (addition, access, updating, deletion of data)
+          Database ----> DBMS ---> API---> App
+                              ---> API---> App
+                              ---> API---> App
+-file processing system -data redundancy 7 inconsistency
+                        -difficulty in accessign data & data isolation
+                        -integrity problems, atomicity problems
+                        -concurrent-access anomalies & security problems
+-DBMS architecture -View of data
+                   -provide abstract view of data (system hides certain details & data is stored & 
+                    maintained)
+                   -simplify user interaction with system, abstraction is applied through several 
+                    levels of abstraction
+                   -enable multiple users to access same data with personalised view while storing 
+                    underlying data only once
+                   -physical level/ internal level -lowest level of abstraction 
+                                                   -low level data structures are used
+                                                   -describe physical storage structure of DB
+                                                   -storage allocation (N-ary tree), data 
+                                                    compression, encryption
+                                                   -use algorithm allow efficient access of data
+                   -logical level/ conceptual level -design database at conceptual level (what data 
+                                                     is stored in DB & what relationships exist 
+                                                     among data
+                                                    -user at logical level doesn't need to be aware 
+                                                     of physical level structures
+                                                    -DBA who must decide what information to keep 
+                                                     in DB use logical level of abstraction
+                                                    -should be easy to use
+                   -view level/ external level -highest level of abstraction to simplify user 
+                                                interaction with system by providing different view 
+                                                to different end-user
+                                               -each view schema tells database part the particular 
+                                                user group is interested & hides remaining database 
+                                                from user group
+                                               -database contains several schemas (subschemas) used 
+                                                to tell different view of database
+                                               -view also provide security mechanism to prevent 
+                                                users from accessing certain part of DB
+                   -instances & schemas -
+                   
+         
+                   
+   
+
+System design:
+-understanding high level computer architecture of individual computers
+-computer function through layered system & each optimised for varying task
+-bit (0 or 1), byte (used for representing A,B,C,1,3,4)
+-computer disk storage (which holds primary data) (HDD or SSD type)
+-disk storage is non-volatile & maintains data without power (contains OS apps & user files)
+-ranges from 256GB, 512GB, 1TB, 2TB
+-HDD (80MB/sec --> 160MB/sec) & SSD (500MB/sec --> 3500MB/sec)
+-RAM (random access memory serves as primary active data holder holds data structures, variable &  
+ applications data, volatile memory) (4,8,16,32,64GB) (speed more than 5000MB/sec)
+-cache (smaller than Ram in MBs & access time for each memory is faster than RAM offering just few
+ nano seconds)
+-CPU check L1 cache for data --> L2 --> L3 --> checks RAM
+-cache helps in reducing average time to access data 
+-CPU fetches --> decodes --> execute instructions
+-motherboard is main board (component that connects everything, provides path phase allow data to 	
+ flow between component
+-high level architecture -CI/CD pipeline continuous integration & continuous deployment
+		        -ensures code goes from repository though series of tests & pipeline checks 
+		         & onto production server without any manual intervention
+		        -configured with platforms like Jenkins & Github 
+		        -needs to handle lots of user requests managed by load balancer & reverse 	
+		         proxies like NGX
+		        -user requests are equally distributed across multiple servers
+		        -maintaining smooth user experience even during high traffic specs
+		        -server needs to store data (external storage server that is not running on
+	                 same production server instead its connected over network
+		        -our servers might also communicating with other servers as well
+		        -logging & monitoring system ensures everything runs smoothly
+		        -keeping eye on every micro interaction, storing logs & analysing data
+		        -backend tools like PM2 (logging & monitoring) & frontend platforms like 
+		         sentry (capturing & report errors in real time)
+		        -when logging system detect failure ---> informs altering service --> push 	
+		         notification are sent to keep user informed from generic --> integrate 
+	                 into platforms
+			-never debug directly into production environment
+			-
+
+=-----------------------------------Data structures & algorithm-----------------------------------=
+
+Data structure:
+-named location that can be used to store & organise data
+-family tree, array (collection of elements stored in contiguous memory locations)
+
+
+Algorithm:
+-collections of steps to solve particular problems
+-linear search -1 by 1 examines elements of array to find value
+
+
+DSA:
+-writing code that is both time & memory efficient
+-commonly asked in questions involved DSA in coding job interviews
+-linear data structure -static -array
+                       -dynamic -queue, stack, linked list
+-non-liner data structure -tree
+                          -graph
+
+
+Big O notation:
+-
+
+
+Linked-list vs Array-list:
+-linked-list -internally uses double linked list to store elements
+             -manipulation with ll is faster than al (no bit shifting is required in memory)
+             -consumes more memory than al (stores next & previous references along with data)
+             -act as list & queue both
+-array-list -internally uses dynamic array
+            -manipulation with al is slow (internally use array, if element removed from array 
+             ----> bits are shifter in memory)
+            -consumes less memory than ll
+            -act as list only 
+            -better for storing & accessing data
+
