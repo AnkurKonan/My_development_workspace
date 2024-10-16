@@ -10,7 +10,24 @@ How to think as programmer:
 
 
 Blockchain:
+-no restriction on payment, use complex algorithm, speed of exchange, no-3rd party involvement, 
+ free/very less transaction fees, no inflation
+-use complex technique, highly volatile, not accepted everywhere, black market, scaling issues, no  
+ reserve of payment & recovery
 -works on shared ledger of transactions
+-blockchain is basically like network of different blocks
+-Web 2.0 (login, signing, liking, posting & so on)
+-Web 1.0 (only Html, css, & barely some javascript)
+-Web 3.0 (nobody owns your data) (transaction can be accessed by anyone) (network of block)
+-no technology till now to hack all block chains
+-written or smart contacts is extra thing to write in block chain
+-javascript, typescript, python
+-solidity programming language to write smart contracts
+-gas fees for doing any transaction
+-polygon/ solana
+-remix IDE/ hardhat/ mocha
+-NFT (non fungible token projects) (opens/wallet app)
+-finding open source projects
 -ledger information is stored in blocks
 -blocks are verified using "proof of work"
 -only verified blocks are added to blockchain
@@ -29,6 +46,12 @@ Blockchain:
 				   -order transaction from past 10 min
 				   -receive bitcoin in return
 				   -keep network secure
+-hot wallet -connected to internet 
+            -allow from instantaneous fund transfer
+            -greater ease of use but more vulnerable to hacking
+-cold wallet -offline wallet live in small hardware device/ paper
+             -more secure, payment process may be more cumbersome
+
 
 
 [Google = prefers to keep ownership with code that allocate it, If other code needs access to 
@@ -41,6 +64,9 @@ Blockchain:
 
 
 Promoting your app:
+-developer who spend succeed
+-top earners spend time on marketing
+-number of downloads --> games > weather > social networking > maps > music > news
 -unique & memorable
 -include most important keywords
 -don't infringe any trademark
@@ -163,6 +189,37 @@ Logcat -CLI tool dumps log go system messages
 
 [Vs code, Xcode, android studio, Jet brains, Pycharm, IJ, Arduino IDE]
 [blender, scratch, pencil 2D, krita, Autodesk, notepad++, virtual box]
+[computer = common operating machine purposely used for technological educational research]
+
+
+-sudo nano /etc/pan.d/sudo
+-brew install toilet
+-curl https://.............
+-which $SHELL
+-bash
+-ps -ax | grep thisascript
+-kill -0 62779
+-df -h
+-mv test ~/documents/test
+-security ping-generic-password -wa "James Coffee Co"
+-security ping-generic-password -wa "James Coffee Co" | pbcopy
+-ll
+
+
+DOS vs DOSS:
+-dos -transmits less amount of traffic
+     -often carried out from single machine using script/ tool
+     -tracking true origin is significantly less difficult 
+     -simple to identify & terminate connections
+     -DOS attack deployed less quicker
+     -hacker ---- botnet ---- IP request point --------> server
+-doss -transmits more amount of traffic
+      -C&C server to coordinate numerous hosts infect with malware (bots), resulting in botnet
+      -tracking true origin is significantly more difficult 
+      -emanates from several location, hiding its origin
+      -hacker ---- botnet ---- IP request point (multiple computers) --------> server
+      -
+      -DDOS attack deployed much quicker
 
 
 Raspberry Pi:
@@ -183,6 +240,8 @@ Game development:
 -kingdom management game
 -tower defence game
 -setting design goal
+-gamification -points, badges, levels, leaderboards, challenges, accelerated feedback cycle, clear 
+ goals, compelling narrative, challenging but achievable tasks
 -using AI in game as opponent (don't make unbeatable AI model)
 -humans like having impact in environment (feeling of power & control) (reward = impact)
 -increasing randomness  & fantasy --> more rewarding
@@ -193,7 +252,8 @@ Game development:
 -battlefield, fortune wheel, VIP access (removing ads, purchase gifts, level bonus) (X days free 
  trial), settings
 -mathematics is important in game development
--pacman (game about fear), space invader extreme, Zelda, snake, NES, mega man
+-Pac-man (game about fear), space invader extreme, Zelda, snake, NES, mega man
+-computerised D&D
 
 
 DBMS vs RDBMS:
@@ -305,21 +365,52 @@ Static vs dynamic website:
 -static -html, Js, css
         -easy to build, cheap to host, fixed content
         -server-------client
-        -brochure site, B@B marketing sites, non-profit sites, blogs
+        -brochure site, B2B marketing sites, non-profit sites, blogs
 -dynamic -html, Js, css, mysql, php
          -little hard to build, costly than static website to host, easily edit content
          -server-------database server-------client
          -e-commerce stores, membership site, learning management system
 
 
+Website file (html, css, Js)----> web host (Mysql + RDBMs) (server) (OS, http, http server + SSPL + dbms)----> internet ----> website visitor            
+
+
+MySQL ----> SQL based RDBMS ----> web database          
+
+
+How fast computer can be:
+-bremermann's limit -1.3564 * 10^(50) bits/s/kg
+-135 trillion trillion trillion trillion
+-1.4 * 10^(103) bits/s  
+
+
+Directory vs folder:
+-directory -contains hold folders & files
+           -occupy space, almost 4KB/4096 bytes in size
+           -operations include creation, deletion, opening, closing, reading renaming, linking, 
+            unlinking
+           -organise data in different level
+           -can store files, subdirectories, other directories, provides high accessibility for 
+            user
+-folder -serves as holding place for collection of documents arranged under same header
+        -don't occupy any memory space on computer
+        -no specific size
+        -users have ability to make share, rename, movie , delete folders
+        -organise data in single level
+        -better suited for organising small amount of data
+        -store subfolders & files, provides high accessibility for users
+
+
 MAC address vs IP address:
 -MAC address -48 bit hexadecimal address, works at OSI layer 2 (link layer), physical address, 
               fixed, assigned  
               by manufacturer, 00:F5:09:56:E8
+             -helps to solve IP address issues
              -media access control, identifies physical address of computer on internet
              -assigned in NIC card, ARP protocol can retrieve MAC address of device
 -IP address -32 bit address, works at OSI layer 3 (network layer), logical address, can change 
              depending on network environment, 150.60.122.98
+            -reverse address resolution protocol helps to retrieve IP address
             -IPv4 is 32 bit address & IPv6 is 128 bits address
             -assigned by network administrator or ISP
             -RARP protocol can retrieve IP address of device
@@ -415,11 +506,8 @@ Client side & server side:
 -server side -backend, processes user input, server side scripts mostly, deals with transactions & 	
  	      complex computations, processes are transparent to users
 	     -php, Node.js, python, mysql, mongoDB
-
-
-Motherboard:
--expansion slots -graphics, sound, network interface, PC/express
--ports -USB, firewire, SD card, audio
+-Client system <----response/request----> server <----database five response to server/ server 
+ check in database----> database (check for validation & availability)
 
 
 General things:
@@ -529,6 +617,9 @@ Operating system vs firmware:
 
 [FreeBSD, Solaris, Sun cobalt, Red-hat, Linux]
 [digitalocean, Linode, Netlify, versel]
+[sPlan]
+[haveibeenpwned]
+[kakoune]
 
 
 Python:
@@ -584,10 +675,16 @@ Statically vs dynamic typed:
 
 DPU vs GPU vs CPU:
 -DPU -offload functions & data manipulation, very low power, very high storage efficiency, low cost
+     -multi core MIMD + tightly coupled accelerators high throughput for multiplexed workloads true 
+      fabric enables disaggregation & pooling specialised memory, storage, security, 
+      virtualisation, data centric, computations run > 10X more efficiently
 -CPU -user application (generation compatibility), high power, low storage efficiency, high cost,  
-      multi-core, MIMD, high IPC for single threads, ideal for low to medium I/O
+      multi-core, MIMD, high IPC for single threads, ideal for low to medium I/O, fine grain memory 
+      sharing classical cache coherency
 -GPU -paralleled compute processing, very high power, low storage efficiency, very high cost, 
       multi-core, SIMD, ideas for graphics, ML training
+     -high throughput for vector processing coarse-gain memory sharing relaxed  coherency, based on 
+      data
 
 
 Dedicated vs integrated GPU:
@@ -638,6 +735,19 @@ Data types:
 -non-primitive -string
                -arrays
                -user defined classes
+
+
+Symptoms of device being infected by computer virus:
+-low performance
+-freeze-ups & crashes
+-missing files
+-new files appear
+-problems with hardware
+-computer operating by itself
+
+
+Types of computer viruses:
+-
 
 
 MERN vs MEAN:
@@ -709,8 +819,27 @@ Web scraping:
 -select website --> find data --> write script --> run bot ---> store data
 
 
+How to read & write binary:
+-any number ----> keep dividing by 2 ----> even (0) & odd (1) -----> binary
+
+
 Some computer specs:
--I7 9700k @ 3.60Ghz, NVIDIA geforce RTX 2700 8GB, 16GB DDR4
+-Clock speed -how many clocks cycles can CPU perform in 1 second (Hz)
+             -GHz (1 billion Hz) 
+             -clock cycle is single electrical pulse in CPU (basic task, accessing memory, data)
+             -core speed = (bus/base speed) * multiple = 100MHz * 35 = 3500MHz
+             -base clock is used with RAMs, graphics card, any other chip
+             -overclocking -raising clock speed higher than manufacturing settings (Pc might crash)
+             -overclocking comes with over vaulting ---> more heat
+-core count, thread count, base clock, total cache, TDP, socket
+-Fan speed (CPU fan(RPM), GPU fan(RPM), Fan acoustics(dBA))
+-system configuration (win key, AC key, touch pad, panel power saver, legacy DRM compatibility)
+-GPU stats (frequency(MHz), usage(%), memory frequency(MHz), temperature('C), voltage(mV), max 
+ TGP(W))
+-CPU stats (frequency(MHz), usage(%), memory frequency(MHz), temperature('C), voltage(mV))
+-GPU mode (ultimate, standard, eco mode, optimised)
+-I5-12th Gen (R), 12500H, NVIDIA Geforce, RTX 3050 ,GDDR6 4GB (128 bits)
+-I7 9700k 3.60Ghz, NVIDIA geforce RTX 2700 8GB, 16GB DDR4
 -10GEN I7, 1660ti 6GB, 16GB DDR4
 -HP omen 15, RTX 3060, AMD Ryzen 7
 -I5 4GEN, GT710 
@@ -733,6 +862,9 @@ High level language (humans) source code(.java)----compiler----bytes code (.clas
 portable)----JVM----object code (machine code) Low level language (computer)
 
 
+HLL ----> processor ---(pure HLL)---> compiler ---(relocated code)---> assembler ---(assembly)---> loader/linker ----> machine code
+
+
 Hardware ---> machine learning ---> assembly language ---> C, C++ rust
 
 
@@ -753,10 +885,81 @@ Compiler vs interpreter:
            -used by assembly language
 
 
+Database server (storage, login, retrieval of data) <-----> web server (store, share html pages) 
+<-----> client/web browser (viewing & interaction with html pages)
+
+
+Cookies vs sessions:
+-cookies -mechanism for storing data in remote browser & tracking/ identifying return users
+         -set specific data to stored in browser & retrieve it when user visits site again
+         -cookies are on clients, no-one should store sensitive data in them
+-sessions -way to store information (variables) to be used across multiple pages, sessions are 
+           stored on server
+
+
 Blender:
 -open source 3d software used to make animation, visual effects, game assets
 -shift + A (adding new items)
--
+-Orbit View: Option + Left Click or Middle Mouse Button
+Pan View: Shift + Option + Left Click
+Zoom In/Out: Scroll Wheel or Cmd + Middle Mouse Button
+Frame Selected Object: Numpad . or Shift + .
+Toggle Fullscreen: Ctrl + Spacebar
+-Object Mode: Tab (Switch between Object and Edit mode)
+Sculpt Mode: Ctrl + Tab, then select Sculpt
+Vertex Select: 1 (In Edit Mode)
+Edge Select: 2 (In Edit Mode)
+Face Select: 3 (In Edit Mode)
+-Grab/Move: G
+Rotate: R
+Scale: S
+Duplicate Object: Shift + D
+Delete Object: X or Delete
+Confirm Action: Enter or Left Click
+Cancel Action: Esc or Right Click
+Undo: Cmd + Z
+Redo: Cmd + Shift + Z
+Reset Location/Rotation/Scale: Alt + G, Alt + R, Alt + S
+-Front View: Numpad 1 or Cmd + 1
+Side View: Numpad 3 or Cmd + 3
+Top View: Numpad 7 or Cmd + 7
+Perspective/Orthographic Toggle: Numpad 5 or Cmd + 5
+Camera View: Numpad 0 or Cmd + 0
+Maximize Area: Ctrl + Spacebar
+-Extrude: E
+Bevel: Ctrl + B
+Inset Faces: I
+Knife Tool: K
+Loop Cut: Ctrl + R
+Merge: Cmd + M
+Subdivide: Cmd + E > Subdivide
+Bridge Edge Loops: Cmd + E > Bridge Edge Loops
+Delete Faces/Edges/Vertices: X or Delete
+-Select/Deselect All: A
+Select Edge Loop: Alt + Left Click
+Select Edge Ring: Ctrl + Alt + Left Click
+Box Select: B
+Circle Select: C
+Lasso Select: Cmd + Left Click + Drag
+Invert Selection: Cmd + I
+-Insert Keyframe: I
+Delete Keyframe: Alt + I
+Play/Pause Animation: Spacebar
+Jump to Next Keyframe: Shift + Right Arrow
+Jump to Previous Keyframe: Shift + Left Arrow
+Timeline Scrubbing: Shift + Left Click on timeline
+-Sculpt Tool: Ctrl + Tab, then select Sculpt
+Brush Size Increase/Decrease: F
+Brush Strength Increase/Decrease: Shift + F
+Smooth Brush Shortcut: Shift + Left Click
+-Render: F12
+Render Animation: Ctrl + F12
+Open Render View: F11
+Save Render: Shift + S in the render window
+Save: Cmd + S
+Save As: Cmd + Shift + S
+New File: Cmd + N
+Open File: Cmd + O
 
 
 DBMS:
@@ -785,7 +988,7 @@ DBMS:
                         -difficulty in accessign data & data isolation
                         -integrity problems, atomicity problems
                         -concurrent-access anomalies & security problems
--DBMS architecture -View of data
+-DBMS architecture -view of data
                    -provide abstract view of data (system hides certain details & data is stored & 
                     maintained)
                    -simplify user interaction with system, abstraction is applied through several 
@@ -816,9 +1019,28 @@ DBMS:
                                                 to tell different view of database
                                                -view also provide security mechanism to prevent 
                                                 users from accessing certain part of DB
-                   -instances & schemas -
-                   
-         
+                   -instances & schemas -collection of info stored in DB at particular moment 
+                                         (instance of DB)
+                                        -overall design of DB (DB schema)
+                                        -schema is structure description of data & not change 
+                                         frequently but data can
+                                        -DB schema correspond to variable declarations in program
+                                        -types of schema -physical -change should not affect 
+                                                                    logical schema/app
+                                                         -logical -programmer construct app by 
+                                                                   using logical schema
+                   -data models -provides way to describe design of DB at logical level
+                                -collection of conceptual tools for describing data, data 
+                                 relationships, data semantics, consistency constraints
+                                -ER model, relational model, object-oriented model, object-
+                                 relational data model
+                   -database languages -data definition language (DDL) -specific DB schema, specify  
+                                        consistency, checked every-time DB is updated
+                                       -data manipulation language (DML) -express DB quires, update
+                                        retrieval, insertion, deletion, updating, query language 
+                                        (specify statements requesting retrieval of info)
+                   -
+                                       
                    
    
 
@@ -857,8 +1079,20 @@ System design:
 		        -when logging system detect failure ---> informs altering service --> push 	
 		         notification are sent to keep user informed from generic --> integrate 
 	                 into platforms
-			-never debug directly into production environment
-			-
+			-never debug directly into production environment instead recreate issue 
+                          in staging & test environment & developers don't get affected by 
+                          debugging process 
+			-issue needs to be identified (logging & monitoring) & searching for 
+                          pattern/ anomalies point to source of problem ----> replicated into safe 
+                          environment
+-good design -scalability 
+             -maintainability
+             -efficiency
+             -reliability
+-heart of system design -moving data -
+                        -storing data 
+                        -transforming data
+
 
 =-----------------------------------Data structures & algorithm-----------------------------------=
 
@@ -885,15 +1119,58 @@ Big O notation:
 -
 
 
-Linked-list vs Array-list:
--linked-list -internally uses double linked list to store elements
-             -manipulation with ll is faster than al (no bit shifting is required in memory)
+-Stack -follow last-in, 1st-out order
+       -efficient insertion & detain at top
+       -shopping lists, task management
+       -used for function call, undo operations
+-Hash-table -stores key-value pairs for quick lookup
+            -use hash function for indexing
+            -caching, symbol tables
+            -efficient retrieval, insertion & deletion operations
+-Tree -organise element in hierarchical structure
+      -element have parent & child relation
+      -used for hierarchy, searching, sorting
+-Queue -follow 1st-in, 1st-out order
+       -efficient insertion at rear & deletion at front
+       -print queue, BFS (breadth 1st search)
+       -used fro managing tasks, message, passing
+-Graph -represent relation b/w entities
+       -consist of vertices & edges
+       -social networks, network routing
+       -used for modelling networking, social connections
+-Linked-List -internally uses double linked list to store elements
+             -manipulation faster than al (no bit shifting is required in memory)
              -consumes more memory than al (stores next & previous references along with data)
              -act as list & queue both
--array-list -internally uses dynamic array
+             -efficient insertion & deletion operations
+             -support dynamic size adjustments
+-array-List -internally uses dynamic array
             -manipulation with al is slow (internally use array, if element removed from array 
              ----> bits are shifter in memory)
             -consumes less memory than ll
-            -act as list only 
+            -act as list only  
+            -image processing, dynamic programming
+            -stores multiple element in contiguous memory
+            -accessed by index
+            -fixed/ resizable size
             -better for storing & accessing data
+
+
+Binary search:
+-optimised way of learning
+-finding element in sorted array by continually chopping search area in 1/2 (example Oxford 
+ dictionary)
+-linear search can also be done but maximum comparison would be number of elements in array
+-we can also use while loop & recursive function
+-algorithm for binary search -setting starting element pointer & ending element pointer
+			    -finding middle element 
+			    -if target element > middle => search in right 
+			      else search in left
+			    -if middle element == target element //answer
+			    -if start == end //element not found
+-we are not creating new array
+-best scenarios of binary search = when 1st middle element = searching (only take 1 step)
+-best case complexity = constant (size does not matter) (O(N))
+-worst case scenario = (N/2^(k)) (total number of comparison = logN)
+-order-agnostic binary search 
 
